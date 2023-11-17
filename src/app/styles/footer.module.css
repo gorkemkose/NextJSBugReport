@@ -1,0 +1,62 @@
+/* styles/Footer.module.css */
+
+.footer {
+  padding: var(--Tablet-Padding, 40px) 74px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--Mobile-Padding, 20px);
+  align-self: stretch;
+  border-radius: var(--Tablet-Padding, 40px) var(--Tablet-Padding, 40px) 0px 0px;
+  background-image: url('/images/FooterBackground.svg'); /* Adjust the path to your image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.leftDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: center;
+}
+
+.footerDesc{
+  color: #FFF;
+font-family: Neurial Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+margin-right: 100px;
+}
+
+.columns{
+  display: inline-flex; 
+  flex-direction: column;
+  gap: 15px;
+  padding:30;
+}
+
+.columnTitle{
+  color: #FFF;
+font-family: Neurial Grotesk;
+font-size: 16px;
+font-style: normal;
+text-align: left;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+}
+
+.columnText{
+  color: #FFF;
+text-align: left;
+/* Body/Neurial/SM/Regular */
+font-family: Neurial Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity:0.5;
+}

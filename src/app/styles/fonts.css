@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Extrabold.otf') format('opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-ExtraboldItalic.otf') format('opentype');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Light.otf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-LightItalic.otf') format('opentype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-MediumItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeurialGrotesk';
+  src: url('/fonts/NeurialGrotesk-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

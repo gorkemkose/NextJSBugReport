@@ -1,0 +1,41 @@
+.category {
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 30px;
+  border: 1px solid var(--Gray-200, #e9eaec);
+}
+
+.category p {
+  color: var(--Gray-800, #1d1e21);
+  text-align: center;
+
+  /* Body/Neurial/SM/Regular */
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.activeCategory {
+  display: flex;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 30px;
+  background: rgba(241, 0, 214, 0.1);
+}
+
+.activeCategory p {
+  color: var(--pink-main, #f100d6);
+  text-align: center;
+
+  /* Body/Neurial/SM/Regular */
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

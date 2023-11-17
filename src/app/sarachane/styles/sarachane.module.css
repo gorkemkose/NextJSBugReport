@@ -1,0 +1,128 @@
+.mainArea {
+  background-color: white;
+  background-image: url('/images/PinkBackground.svg');
+  background-size: auto; /* Adjust the background size as needed */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.packagesWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.searchArea {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.sortButton {
+  display: flex;
+  height: 46px;
+  padding: 0px 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+}
+
+.myPackages {
+  display: flex;
+  padding: 14px var(--Mobile-Padding, 20px);
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  background: var(--Gray-100, #f8f8f9);
+}
+
+.sortButton p {
+  color: var(--Gray-800, #1d1e21);
+  text-align: center;
+
+  /* Body/Neurial/SM/Regular */
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.myPackages p {
+  color: var(--Gray-900, #0a0a0b);
+  text-align: center;
+
+  /* Body/Neurial/SM/Semibold */
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+}
+
+.sortButton:hover {
+  background: var(--Gray-100, #f8f8f9);
+}
+
+.categoryWrapper {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.headerArea {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.headerArea p {
+  color: var(--Gray-800, #1d1e21);
+
+  /* Overline/MD */
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.headerArea p span {
+  color: var(--Gray-800, #1d1e21);
+  font-family: Neurial Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.headerArea h1 {
+  color: var(--Gray-800, #1d1e21);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Antonia Variable;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 90px; /* 100% */
+}

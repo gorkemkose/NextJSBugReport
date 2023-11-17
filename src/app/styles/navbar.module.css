@@ -1,0 +1,97 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* styles/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white; /* Change the background color as needed */
+  color: #1d1e21; /* Change the text color as needed */
+  /*padding: 24px 72px;*/
+  padding-right: 5rem; /*px-20*/
+  padding-left: 5rem;
+  padding-top: 1.5rem; /*py-6*/
+  padding-bottom: 1.5rem;
+  height: 78px;
+  font-family: 'NeurialGrotesk', sans-serif;
+  width: 100%;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  /* Add styles for your logo */
+  max-width: 130px; /* Adjust the max-width based on your logo size */
+}
+
+.tabs {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: var(--Tablet-Padding, 40px);
+}
+
+.tab {
+  /* Add styles for your tabs */
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1d1e21;
+  font-size: 14px;
+  font-weight: 500;
+  /*transition: background-color 0.3s ease;*/
+}
+
+.tab:hover {
+  border-radius: 15px;
+  background: var(--Gray-100, #f8f8f9);
+}
+
+.loginsignup {
+  display: flex;
+  gap: 10px; /* Adjust the gap between login and signup buttons as needed */
+  gap: var(--Tablet-Padding, 24px);
+}
+
+.signup {
+  /* Add styles for your login/signup buttons */
+  border: none;
+  border-radius: 68px;
+  background: var(--Gray-800, #1d1e21);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  padding: 3px 3px 3px 10px;
+  align-items: center;
+  gap: 5px;
+}
+.login {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+}
+/* Example media query for responsiveness */
+@media screen and (max-width: 600px) {
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-signup {
+    flex-direction: column;
+    align-items: center;
+  }
+}
